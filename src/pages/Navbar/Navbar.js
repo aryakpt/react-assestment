@@ -8,6 +8,10 @@ function Navbar (){
             <form>
                 <input className='search' type='text' placeholder='Deliver to...'/>
             </form>
+            <div className='btn-wrap'>
+                <button className='btn-cart'><img src='https://i.ibb.co/87f1xhy/Vector-1.png' alt='cart-btn'/></button>
+                <button>siu2</button>
+            </div>
         </nav>
     )
 }
