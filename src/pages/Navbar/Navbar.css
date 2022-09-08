@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 11px;
+
+    position: absolute;
+    width: 1440px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--grey-6);
+}
+.navbar img{
+    width: 116.92px;
+    height: 40px;
+}
+.navbar input {
+    float: left;
+    background-image: url('https://i.ibb.co/tpTH2F0/Vector.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-position: 10px 10px;
+    gap: 24px;
+    padding: 0px 30px;
+    border: 1px solid var(--grey-4);
+    border-radius: 40px;
+
+    width: 400px;
+    height: 40px;
+}
