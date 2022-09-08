@@ -66,6 +66,9 @@ position: relative;
     margin-top: 56px;
     cursor: pointer;
 }
+.footer-link :hover{
+    color: var(--brand-yellow);
+}
 .google{
     margin-bottom: 17.64px;
     cursor: pointer;
