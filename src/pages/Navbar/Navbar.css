@@ -1,3 +1,6 @@
+*{
+    font-family: var(--primary-font);
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -5,7 +8,6 @@
     align-items: center;
     padding: 16px 40px;
     gap: 11px;
-
     position: absolute;
     width: 1440px;
     height: 84px;
@@ -13,9 +15,10 @@
     top: 0px;
     background-color: var(--grey-6);
 }
-.navbar img{
+.nav-logo{
     width: 116.92px;
     height: 40px;
+    margin-right: 40px;
 }
 .navbar input {
     float: left;
@@ -32,6 +35,9 @@
     width: 400px;
     height: 40px;
 }
+.navbar form{
+    flex: 4;
+}
 .btn-wrap{
     display: flex;
     flex-direction: row;
@@ -41,36 +47,22 @@
 
     width: 213px;
     height: 40px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 .btn-cart{
     box-sizing: border-box;
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px 16px;
     gap: 14px;
-
     width: 56px;
     height: 40px;
-
-    /* brand/purple */
-
-    border: 1.5px solid #4B3786;
+    border: 1.5px solid var(--brand-purple);
     border-radius: 40px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -78,4 +70,22 @@
 .btn-cart img{
     width: 24px;
     height: 24px;
+}
+.btn-log{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    gap: 14px;
+    border: none;
+    width: 133px;
+    height: 40px;
+    background: var(--brand-purple);
+    border-radius: 40px;
+    color: #ffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-weight: 600;
 }

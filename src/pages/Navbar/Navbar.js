@@ -10,7 +10,7 @@ function Navbar (){
             </form>
             <div className='btn-wrap'>
                 <button className='btn-cart'><img src='https://i.ibb.co/87f1xhy/Vector-1.png' alt='cart-btn'/></button>
-                <button>siu2</button>
+                <button className='btn-log'>Login or Signin</button>
             </div>
         </nav>
     )
