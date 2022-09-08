@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    gap: 87px;
+    position: relative;
+    width: 1440px;
+    height: 336px;
+    background: var(--brand-purple);
+}
+.footer-logo{
+position: relative;
+    width: 75.83px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+.footer-wrap-left{
+    display: flex;
+}
