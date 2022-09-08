@@ -1,5 +1,5 @@
 import React from 'react';
-import { FoodCardRecommended, FoodCardReguler } from '../../components';
+import { FoodCardRecommended, FoodCardReguler, FoodNav } from '../../components';
 import { dummyData } from '../../json';
 import styles from './Home.module.css';
 
@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <div>
       <section className={styles.food}>
-        <div className={styles['food-container']}>
+        <FoodNav />
+        <div className={styles['food__container']}>
           <article className={styles['food-recommended']}>
             <h2 className={styles['food__title']}>Recommended</h2>
             <div className={styles['food-recommended__list']}>
