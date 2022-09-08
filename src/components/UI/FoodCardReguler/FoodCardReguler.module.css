@@ -4,18 +4,22 @@
   padding: 16px;
   gap: 14px;
 
-  max-width: 389.33px;
+  width: 389.33px;
+  max-width: 100%;
   min-height: 120px;
 
   background-color: var(--neutral-white);
   border: 1px solid var(--grey-5);
   border-radius: 8px;
+
+  cursor: pointer;
 }
 
 .card-img {
   max-width: 80px;
   min-height: 80px;
 
+  object-fit: cover;
   border-radius: 4px;
 }
 

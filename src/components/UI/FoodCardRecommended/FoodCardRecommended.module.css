@@ -2,13 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 288px;
+  width: 288px;
+  max-width: 100%;
   min-height: 278px;
   padding: 16px;
   gap: 16px;
   background: var(--neutral-white);
   border: 1px solid var(--grey-5);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card-img-top {
