@@ -5,7 +5,7 @@
 .food__container {
   width: 1200px;
   max-width: 100%;
-  padding: 40px 0;
+  padding: 40px 0px;
   /* max-width: 1680px; */
   background-color: var(--grey-6);
   margin: auto;
