@@ -16,4 +16,6 @@
   border: none;
 
   font: var(--text-lg-medium);
+
+  cursor: pointer;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './AddButton.module.css';
-import { IconAdd } from '../../../assets';
+import { ic_add } from '../../../assets';
 
 const AddButton = ({ onClick }) => {
   return (
     <button className={styles['add-button']} onClick={onClick}>
-      <img src={IconAdd} alt='icon-add' />
+      <img src={ic_add} alt='icon-add' />
     </button>
   );
 };
