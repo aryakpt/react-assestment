@@ -7,5 +7,7 @@ import FoodNav from './FoodNav/FoodNav';
 import Badge from "./Badge/Badge";
 import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Menu from './Menu/Menu';
+import RatingBox from './RatingBox/RatingBox';
+import Tabs from './Tabs/Tabs';
 
-export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb, Menu };
+export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb, Menu, RatingBox, Tabs};
