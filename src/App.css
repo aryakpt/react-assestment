@@ -4,6 +4,7 @@
   --brand-purple: #4b3786;
   --brand-yellow: #e9af53;
   --neutral-black: #000000;
+  --neutral-white: #ffffff;
   --grey-1: #333333;
   --grey-2: #4f4f4f;
   --grey-3: #828282;
@@ -11,41 +12,41 @@
   --grey-5: #e0e0e0;
   --grey-6: #f2f2f2;
 
-  --label-reguler: 400 10px var(var(--primary-font));
-  --label-medium: 600 10px var(var(--primary-font));
-  --label-bold: 700 10px var(var(--primary-font));
+  --label-reguler: 400 10px/24px var(--primary-font);
+  --label-medium: 600 10px/24px var(--primary-font);
+  --label-bold: 700 10px/24px var(--primary-font);
 
-  --text-xs-reguler: 400 12px var(var(--primary-font));
-  --text-xs-medium: 600 12px var(var(--primary-font));
-  --text-xs-bold: 700 12px var(var(--primary-font));
+  --text-xs-reguler: 400 12px/24px var(--primary-font);
+  --text-xs-medium: 600 12px/24px var(--primary-font);
+  --text-xs-bold: 700 12px/24px var(--primary-font);
 
-  --text-sm-reguler: 400 14px var(var(--primary-font));
-  --text-sm-medium: 600 14px var(var(--primary-font));
-  --text-sm-bold: 700 14px var(var(--primary-font));
+  --text-sm-reguler: 400 14px/24px var(--primary-font);
+  --text-sm-medium: 600 14px/24px var(--primary-font);
+  --text-sm-bold: 700 14px/24px var(--primary-font);
 
-  --text-base-reguler: 400 16px var(var(--primary-font));
-  --text-base-medium: 600 16px var(var(--primary-font));
-  --text-base-bold: 700 16px var(var(--primary-font));
+  --text-base-reguler: 400 16px/24px var(--primary-font);
+  --text-base-medium: 600 16px/24px var(--primary-font);
+  --text-base-bold: 700 16px/24px var(--primary-font);
 
-  --text-lg-reguler: 400 18px var(var(--primary-font));
-  --text-lg-medium: 600 18px var(var(--primary-font));
-  --text-lg-bold: 700 18px var(var(--primary-font));
+  --text-lg-reguler: 400 18px/24px var(--primary-font);
+  --text-lg-medium: 600 18px/24px var(--primary-font);
+  --text-lg-bold: 700 18px/24px var(--primary-font);
 
-  --text-xl-reguler: 400 28px var(var(--primary-font));
-  --text-xl-medium: 600 28px var(var(--primary-font));
-  --text-xl-bold: 700 28px var(var(--primary-font));
+  --text-xl-reguler: 400 28px/24px var(--primary-font);
+  --text-xl-medium: 600 28px/24px var(--primary-font);
+  --text-xl-bold: 700 28px/24px var(--primary-font);
 
-  --text-2xl-reguler: 400 32px var(var(--primary-font));
-  --text-2xl-medium: 600 32px var(var(--primary-font));
-  --text-2xl-bold: 700 32px var(var(--primary-font));
+  --text-2xl-reguler: 400 32px/24px var(--primary-font);
+  --text-2xl-medium: 600 32px/24px var(--primary-font);
+  --text-2xl-bold: 700 32px/24px var(--primary-font);
 
-  --text-3xl-reguler: 400 36px var(var(--primary-font));
-  --text-3xl-medium: 600 36px var(var(--primary-font));
-  --text-3xl-bold: 700 36px var(var(--primary-font));
+  --text-3xl-reguler: 400 36px/24px var(--primary-font);
+  --text-3xl-medium: 600 36px/24px var(--primary-font);
+  --text-3xl-bold: 700 36px/24px var(--primary-font);
 
-  --text-4xl-reguler: 400 40px var(var(--primary-font));
-  --text-4xl-medium: 600 40px var(var(--primary-font));
-  --text-4xl-bold: 700 40px var(var(--primary-font));
+  --text-4xl-reguler: 400 40px/24px var(--primary-font);
+  --text-4xl-medium: 600 40px/24px var(--primary-font);
+  --text-4xl-bold: 700 40px/24px var(--primary-font);
 }
 
 html,
@@ -62,4 +63,6 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
