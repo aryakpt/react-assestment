@@ -13,11 +13,14 @@ footer {
 .footer-logo{
 position: relative;
     width: 75.83px;
-    height: 32px;
     left: 0px;
     top: 0px;
 }
 .footer-wrap-left{
+    display: flex;
+    flex-direction: column;
+}
+.footer-wrap-right{
     display: flex;
     flex-direction: column;
 }
@@ -31,6 +34,7 @@ position: relative;
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-top: 56px;
 }
 .footer-desc{
     width: 595px;
@@ -42,4 +46,30 @@ position: relative;
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-top: 16px;
+}
+.footer-link{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 320px;
+    height: 16px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.google{
+    margin-bottom: 17.64px;
+    cursor: pointer;
+}
+.apple{
+    cursor: pointer;
 }
