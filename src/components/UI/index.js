@@ -6,6 +6,6 @@ import FoodExpanded from './FoodExpanded/FoodExpanded';
 import FoodNav from './FoodNav/FoodNav';
 import Badge from "./Badge/Badge";
 import Breadcrumb from './Breadcrumb/Breadcrumb';
+import Menu from './Menu/Menu';
 
-export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb };
-
+export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb, Menu };
