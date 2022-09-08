@@ -1,3 +1,3 @@
-import { Button } from './UI';
+import { Button, FoodCardRecommended, AddButton, FoodCardReguler, FoodExpanded } from './UI';
 
-export { Button };
+export { Button, FoodCardRecommended, AddButton, FoodCardReguler, FoodExpanded };
