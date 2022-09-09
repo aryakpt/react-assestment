@@ -1,0 +1,171 @@
+.cart{
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+    width: 600px;
+    height: 900px;
+    border-radius: 24px 0px 0px 0px;
+    float: right;
+}
+.close-btn img{
+    position: relative;
+    left: 16.64%;
+    right: 16.64%;
+    top: 16.65%;
+    bottom: 16.64%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.top-cart{
+    display: flex;
+    width: 600px;
+    padding: 24px 27px;
+    flex: none;
+    border-bottom: 1px solid var(--grey-5);
+}
+.cart-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+.time-icon{
+    background-image: url('https://i.ibb.co/FsTyzhC/u-clock-nine.png');
+    background-repeat: no-repeat;
+    padding: 0 30px;
+    margin-top: 8px;
+}
+.top-cart-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.items-cart-title{
+    width: 135px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.items-cart, .items-total{
+    padding: 24px 27px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.calc-wrap{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.calc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 103px;
+    height: 32px;
+    margin-top: 28px;
+}
+.calc button{
+    border-radius: 50%;
+    border: none;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    background-color: var(--grey-6);
+    cursor: pointer;
+}
+.calc span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.decrement img{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.increment img{
+    margin-top: 2px;
+    cursor: pointer;
+}
+.food-items{
+    width: 56px;
+    height: 56px;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+.food-name{
+    width: 253px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 16px;
+}
+.price{
+    width: 47px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 35px;
+}
+.subtotal{
+    padding: 24px 27px;
+    margin-top: 60px;
+    border-top: 1px solid var(--grey-5);
+    display: flex;
+    flex-direction: column;
+}
+.subtotal-desc{
+    margin-top: 8px;
+}
+.subtotal-head, .subtotal-desc{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.items-total{
+    border-top: 1px solid var(--grey-5);
+    padding: 24px;
+    position: absolute;
+    bottom: 90px;
+}
+.total-price{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.items-total-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.total-btn{
+    justify-content: center;
+    align-items: center;
+    padding: 16px 157px;
+    gap: 20px;
+    width: 552px;
+    height: 56px;
+    background: var(--brand-purple);
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 40px;
+    cursor: pointer;
+}

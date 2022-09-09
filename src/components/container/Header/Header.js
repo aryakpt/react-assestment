@@ -1,12 +1,12 @@
 import React from 'react';
-import { Badge, Breadcrumb, Menu, RatingBox, Tabs } from '../../UI';
-import { breadCrumbLink, scheduleMenuData, tabsData } from './constant';
+import { Badge, Breadcrumb, Menu, RatingBox } from '../../UI';
+import { breadCrumbLink, scheduleMenuData } from './constant';
 import './Header.css';
 import '../../../App.css';
 
 const Header = () => {
   return (
-    <div class='header-container'>
+    <div className='header-container'>
       <div className='header-wrapper'>
         <header className='restaurant-header'>
           <section>
@@ -32,9 +32,7 @@ const Header = () => {
               <RatingBox rating={4.8} count={3000} />
             </section>
           </section>
-          <section>
-            <Tabs data={tabsData} />
-          </section>
+          <section>{/* <Tabs data={tabsData} /> */}</section>
         </header>
       </div>
     </div>

@@ -1,3 +1,4 @@
 import Header from './Header/Header';
+import FoodContainer from './FoodContainer/FoodContainer';
 
-export { Header };
+export { FoodContainer, Header };
