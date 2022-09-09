@@ -6,7 +6,7 @@ import '../../../App.css';
 
 const Header = () => {
   return (
-    <div class='header-container'>
+    <div className='header-container'>
       <div className='header-wrapper'>
         <header className='restaurant-header'>
           <section>
