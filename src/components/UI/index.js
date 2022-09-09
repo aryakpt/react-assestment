@@ -4,5 +4,8 @@ import AddButton from './AddButton/AddButton';
 import FoodCardReguler from './FoodCardReguler/FoodCardReguler';
 import FoodExpanded from './FoodExpanded/FoodExpanded';
 import FoodNav from './FoodNav/FoodNav';
+import Badge from "./Badge/Badge";
+import Breadcrumb from './Breadcrumb/Breadcrumb';
 
-export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav };
+export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb };
+
