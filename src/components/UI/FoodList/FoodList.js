@@ -1,5 +1,5 @@
 import React from 'react';
-import { FoodCardRecommended, FoodCardReguler } from '../../';
+import { FoodCardRecommended, FoodCardReguler } from '../../UI';
 import styles from './FoodList.module.css';
 
 const FoodList = ({ dummyData }) => {

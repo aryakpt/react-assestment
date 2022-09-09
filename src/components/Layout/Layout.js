@@ -1,7 +1,6 @@
 import React from 'react';
 import { useHeaderContext } from '../../contexts';
-import Footer from './Footer/Footer';
-import Navbar from './Navbar/Navbar';
+import { Navbar, Footer } from '../UI';
 
 const Layout = ({ children }) => {
   const { isHover } = useHeaderContext();
