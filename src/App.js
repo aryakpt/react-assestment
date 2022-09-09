@@ -2,12 +2,16 @@ import './App.css';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 
+import { HeaderContextProvider } from './contexts';
+
 function App() {
   return (
     <>
-      <Layout>
-        <Home />
-      </Layout>
+      <HeaderContextProvider>
+        <Layout>
+          <Home />
+        </Layout>
+      </HeaderContextProvider>
     </>
   );
 }

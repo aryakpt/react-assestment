@@ -1,12 +1,20 @@
 .nav-food {
-  max-width: 1200px;
   margin: auto;
   position: sticky;
-  top: 0;
+  top: 80px;
   background-color: var(--neutral-white);
   height: 67px;
   min-height: 100%;
   z-index: 1;
+  max-width: 1200px;
+}
+
+.tab-list-wrapper {
+  background: white;
+  width: 100vw;
+  position: sticky;
+  top: 80px;
+  z-index: 2;
 }
 
 .nav-detail {

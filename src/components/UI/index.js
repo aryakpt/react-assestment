@@ -27,5 +27,5 @@ export {
   Tabs,
   FoodList,
   Navbar,
-  Footer
+  Footer,
 };

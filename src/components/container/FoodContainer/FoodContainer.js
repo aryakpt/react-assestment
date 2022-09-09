@@ -5,7 +5,7 @@ import { tabsData } from '../Header/constant';
 const FoodContainer = () => {
   return (
     <main>
-      <Tabs data={tabsData} />
+      <Tabs data={tabsData} isHeader={true} />
     </main>
   );
 };
