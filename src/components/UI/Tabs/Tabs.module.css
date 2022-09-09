@@ -1,7 +1,7 @@
 .nav-food {
   margin: auto;
   position: sticky;
-  top: 0;
+  top: 80px;
   background-color: var(--neutral-white);
   height: 67px;
   min-height: 100%;
@@ -12,6 +12,9 @@
 .tab-list-wrapper {
   background: white;
   width: 100vw;
+  position: sticky;
+  top: 80px;
+  z-index: 2;
 }
 
 .nav-detail {

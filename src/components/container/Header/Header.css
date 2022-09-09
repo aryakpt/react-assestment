@@ -6,6 +6,10 @@
   min-width: 1200px;
 }
 
+.hidden {
+  display: none;
+}
+
 .header-container {
   background: white;
   display: flex;
