@@ -9,6 +9,8 @@ import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Menu from './Menu/Menu';
 import RatingBox from './RatingBox/RatingBox';
 import Tabs from './Tabs/Tabs';
+import Navbar from '../Layout/Navbar/Navbar';
+import Footer from '../Layout/Footer/Footer';
 import FoodList from './FoodList/FoodList';
 
 export {
@@ -24,4 +26,6 @@ export {
   RatingBox,
   Tabs,
   FoodList,
+  Navbar,
+  Footer
 };
