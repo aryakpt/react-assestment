@@ -1,3 +1,6 @@
+import { FoodList } from '../../UI';
+import { dummyData } from '../../../json';
+
 export const breadCrumbLink = [
   {
     id: 1,
@@ -30,26 +33,18 @@ export const scheduleMenuData = [
 export const tabsData = [
   {
     label: 'Recommended',
-    content: <p>Test 123</p>,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Bubur',
-    content: <p>Test 456</p>,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Nasi',
-    content: <p>Test 678</p>,
-  },
-  {
-    label: 'Mi Ayam',
-    content: <p>Test 91011</p>,
-  },
-  {
-    label: 'Snack',
-    content: <p>Test 121314</p>,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Minuman',
-    content: <p>Test 151617</p>,
+    content: <FoodList dummyData={dummyData} />,
   },
 ];
