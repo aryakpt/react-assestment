@@ -8,7 +8,7 @@ function Navbar (){
     return (
         <nav className='navbar'>
             <img className='nav-logo' src='https://i.ibb.co/4tmZ7qw/packo-logo-1.png' alt='logo'/>
-            <form onSubmit={hanldeSubmit}>
+            <form onSubmit={handleSubmit}>
                 <input className='search' type='text' placeholder='Deliver to...'/>
             </form>
             <div className='btn-wrap'>
