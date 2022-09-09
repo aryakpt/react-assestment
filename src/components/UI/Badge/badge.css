@@ -1,0 +1,11 @@
+.top-seller-container {
+  background-color: #4b3786;
+  border-radius: 40px;
+  padding: 4px 8px;
+  gap: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: max-content;
+  width: max-content;
+}
