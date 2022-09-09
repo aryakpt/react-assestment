@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div style={{ padding: `${isHover ? '32px' : '64px'} 0px 0px 0px` }}>{children}</div>
+      <div style={{ padding: `${isHover ? '92px' : '64px'} 0px 0px 0px` }}>{children}</div>
       <Footer />
     </>
   );
