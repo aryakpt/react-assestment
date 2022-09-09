@@ -1,6 +1,6 @@
 import React from 'react';
-import { Badge, Breadcrumb, Menu, RatingBox, Tabs } from '../../UI';
-import { breadCrumbLink, scheduleMenuData, tabsData } from './constant';
+import { Badge, Breadcrumb, Menu, RatingBox } from '../../UI';
+import { breadCrumbLink, scheduleMenuData } from './constant';
 import './Header.css';
 import '../../../App.css';
 
