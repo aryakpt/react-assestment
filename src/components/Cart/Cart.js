@@ -1,7 +1,15 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Cart.css'
 
 function Cart () {
+    const [count, setCount] = useState(1);
+    function decrementBtn() {
+        if(count > 0)
+        setCount(prevCount => prevCount - 1);
+    }
+    function incrementBtn() {
+        setCount(prevCount => prevCount + 1)
+    }
     return(
         <section>
         <div className='cart'>
@@ -24,7 +32,7 @@ function Cart () {
                 </div>
                     <div className='calc-wrap'>
                         <div className='calc'>
-                            <button className='decrement'><img src='https://i.ibb.co/LZP0XJ4/Vector-3.png' alt='dec'/></button> <span>1</span> <button className='increment'><img src='https://i.ibb.co/qCNCXJq/Vector-4.png' alt='inc'/></button>
+                            <button onClick={decrementBtn} className='decrement'><img src='https://i.ibb.co/LZP0XJ4/Vector-3.png' alt='dec'/></button> <span>{count}</span> <button onClick={incrementBtn} className='increment'><img src='https://i.ibb.co/qCNCXJq/Vector-4.png' alt='inc'/></button>
                         </div>
                             <img className='food-items' src='https://i.ibb.co/YDQTj2H/Rectangle-2.png' alt='food'/>
                             <span className='food-name'>Bubur Sarang Telor Setengah Matang</span>
@@ -35,7 +43,7 @@ function Cart () {
             <div className='subtotal'>
                 <div className='subtotal-head'>
                     <span className='subtotal-title'>Subtotal</span>
-                    <span className='subtotal-price'>28.000</span>
+                    <span className='subtotal-price'>{28000 * count}</span>
                 </div>
                 <div className='subtotal-desc'>
                     <span>Delivery fee akan ditampilkan setelah checkout</span>
@@ -50,7 +58,7 @@ function Cart () {
                     <div className='items-cart-title'>
                         <span>Total</span>
                     </div>
-                    <span className='total-price'>28.000</span>
+                    <span className='total-price'>{28000 * count}</span>
                 </div>
                 <button className='total-btn'>Login untuk lanjut checkout</button>
             </div>
