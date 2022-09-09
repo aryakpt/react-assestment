@@ -22,7 +22,19 @@
 }
 
 .text-header-grey {
-  color: var(--grey-2);
+  color: #4f4f4f;
   font-weight: 400;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .text-header-grey {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rating-box-container {
+    width: max-content;
+  }
 }

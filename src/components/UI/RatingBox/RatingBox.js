@@ -10,7 +10,7 @@ const RatingBox = ({ rating, count }) => {
         <p>{rating}</p>
       </section>
       <section>
-        <p className='text-14px text-grey'>{count / 1000}k+ ratings</p>
+        <p className='text-14px text-header-grey'>{count / 1000}k+ ratings</p>
       </section>
     </div>
   );
