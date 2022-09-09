@@ -2,10 +2,13 @@ import React from 'react';
 import './Navbar.css';
 
 function Navbar (){
+    function handleSubmit(e) {
+        e.preventDefault();   
+  }
     return (
         <nav className='navbar'>
             <img className='nav-logo' src='https://i.ibb.co/4tmZ7qw/packo-logo-1.png' alt='logo'/>
-            <form>
+            <form onSubmit={hanldeSubmit}>
                 <input className='search' type='text' placeholder='Deliver to...'/>
             </form>
             <div className='btn-wrap'>
