@@ -1,5 +1,4 @@
 .nav-food {
-  max-width: 1200px;
   margin: auto;
   position: sticky;
   top: 0;
@@ -7,9 +6,12 @@
   height: 67px;
   min-height: 100%;
   z-index: 1;
+  max-width: 1200px;
 }
 
-.nav-food-container {
+.tab-list-wrapper {
+  background: white;
+  width: 100vw;
 }
 
 .nav-detail {

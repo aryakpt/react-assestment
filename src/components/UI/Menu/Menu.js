@@ -13,7 +13,7 @@ const Menu = ({ label, menus, type = 'links' }) => {
       >
         {label}
       </MenuButton>
-      <MenuList>
+      <MenuList zIndex='2'>
         {menus.map((menu) => (
           <MenuItem key={menu.id}>
             {type === 'links' ? (
