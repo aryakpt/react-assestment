@@ -9,5 +9,7 @@ import Breadcrumb from './Breadcrumb/Breadcrumb';
 import Menu from './Menu/Menu';
 import RatingBox from './RatingBox/RatingBox';
 import Tabs from './Tabs/Tabs';
+import Navbar from '../Layout/Navbar/Navbar';
+import Footer from '../Layout/Footer/Footer';
 
-export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb, Menu, RatingBox, Tabs};
+export { Button, FoodExpanded, FoodCardRecommended, FoodCardReguler, AddButton, FoodNav, Badge, Breadcrumb, Menu, RatingBox, Tabs, Navbar, Footer};
