@@ -1,4 +1,5 @@
 import React from 'react';
+import Cart from '../../Cart/Cart';
 import './Navbar.css';
 
 function Navbar (){
@@ -14,6 +15,9 @@ function Navbar (){
             <div className='btn-wrap'>
                 <button className='btn-cart'><img src='https://i.ibb.co/87f1xhy/Vector-1.png' alt='cart-btn'/></button>
                 <button className='btn-log'>Login or Signin</button>
+            </div>
+            <div className='modal-content'>
+                <Cart/>
             </div>
         </nav>
     )
