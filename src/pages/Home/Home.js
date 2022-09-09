@@ -1,11 +1,11 @@
 import React from 'react';
-import { Header, FoodContainer } from '../../components';
+import { Button } from '../../components';
 
 const Home = () => {
   return (
     <div>
-      <Header />
-      <FoodContainer />
+      Home
+      <Button />
     </div>
   );
 };
