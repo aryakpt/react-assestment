@@ -92,12 +92,10 @@
 .decrement img{
     text-align: center;
     justify-content: center;
-    margin-bottom: 3px;
-    margin-left: 3px;
+    margin-bottom: 4px;
 }
 .increment img{
-    margin-top: 1px;
-    margin-left: 3px;
+    margin-top: 2px;
     cursor: pointer;
 }
 .food-items{
