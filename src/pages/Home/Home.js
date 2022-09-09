@@ -1,12 +1,11 @@
 import React from 'react';
 import { Header, FoodContainer } from '../../components';
-import { dummyData } from '../../json';
 
 const Home = () => {
   return (
     <div>
       <Header />
-      <FoodContainer dummyData={dummyData} />
+      <FoodContainer />
     </div>
   );
 };

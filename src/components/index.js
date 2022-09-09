@@ -5,6 +5,7 @@ import {
   FoodCardReguler,
   FoodExpanded,
   FoodNav,
+  FoodList,
 } from './UI';
 
 import { Header, FoodContainer } from './container';
@@ -18,4 +19,5 @@ export {
   FoodNav,
   Header,
   FoodContainer,
+  FoodList,
 };

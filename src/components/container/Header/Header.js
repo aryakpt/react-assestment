@@ -32,9 +32,7 @@ const Header = () => {
               <RatingBox rating={4.8} count={3000} />
             </section>
           </section>
-          <section>
-            <Tabs data={tabsData} />
-          </section>
+          <section>{/* <Tabs data={tabsData} /> */}</section>
         </header>
       </div>
     </div>

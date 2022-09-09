@@ -1,6 +1,5 @@
-import { FoodContainer } from '../../';
+import { FoodList } from '../../UI';
 import { dummyData } from '../../../json';
-console.log(dummyData);
 
 export const breadCrumbLink = [
   {
@@ -34,18 +33,18 @@ export const scheduleMenuData = [
 export const tabsData = [
   {
     label: 'Recommended',
-    content: <FoodContainer dummyData={dummyData} />,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Bubur',
-    content: <FoodContainer dummyData={dummyData} />,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Nasi',
-    content: <FoodContainer dummyData={dummyData} />,
+    content: <FoodList dummyData={dummyData} />,
   },
   {
     label: 'Minuman',
-    content: <FoodContainer dummyData={dummyData} />,
+    content: <FoodList dummyData={dummyData} />,
   },
 ];
