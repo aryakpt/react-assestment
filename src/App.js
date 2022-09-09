@@ -1,10 +1,10 @@
 import './App.css';
-import Footer from './pages/Footer/Footer';
+import Cart from './pages/Cart/Cart';
 
 function App() {
   return (
     <>
-      <Footer/>
+      <Cart/>
     </>
   );
 }
