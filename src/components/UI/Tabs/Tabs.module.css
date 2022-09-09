@@ -1,0 +1,14 @@
+.nav-food {
+  max-width: 1200px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  background-color: var(--neutral-white);
+  height: 67px;
+  min-height: 100%;
+  z-index: 1;
+}
+
+.nav-detail {
+  padding: 0;
+}
